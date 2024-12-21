@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\OnlineChats.DAL\OnlineChats.DAL.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -6,4 +6,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\OnlineChats.Application\OnlineChats.Application.csproj" />
+    <ProjectReference Include="..\OnlineChats.Domain\OnlineChats.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
